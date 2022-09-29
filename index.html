@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220929132938"> 
+    <link rel="stylesheet" href="css/style.min.css?_v=20220929132938">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__content _container">
+        <div class="header__top">
+            <nav class="header__menu menu">
+                <button type="button" class="menu__icon icon-menu"><span></span></button>
+                <div class="menu__body">
+                    <div class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item _active"><a href="#" class="nav__link icon-soccer-ball">Футбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-ice-skate-stick">Хоккей</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-tennis-ball">Теннис</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-basket-ball">Баскетбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-voley-ball">Волейбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-boxing">Единоборства</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-sublist">
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Матчи</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Прогнозы</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Статьи</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">РПЛ</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">ЧМ-2022</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига Чемпионов</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига Европы</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига конференций</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">АПЛ</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Ла Лига</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Сериа А</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига 1</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Бундеслига</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">О проекте</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Статьи</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Прогнозы</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Видео</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__column">
+                <a href="index.html" class="header__logo logo">
+                    <div class="logo__name">SPORT-CHANCE</div>
+                    <div class="logo__text">Лучшая спортивная статистика</div>
+                </a>
+            </div>
+            <div class="header__item">
+                <a class="header__button" href="rating-bookmaker.html">Фрибет 2500₽</a>
+            </div>
+            <div class="header__item">
+                <div class="header__item-prize icon-prize"></div>
+                <div class="header__drop-item drop-item-header">
+                    <div class="drop-item-header__icon"><img src="img/icons/pari.svg" alt="icon"></div>
+                    <div class="drop-item-header__close close-icon"></div>
+                    <div class="drop-item-header__text">Бесплатная ставка 1000 рублей</div>
+                    <a href="#" class="drop-item-header__button">Забрать</a>
+                </div>
+            </div>
+            <div class="header__item">
+                <div class="header__search">
+                    <div class="header__close"></div>
+                    <form class="search" action="#">
+                        <input type="text" placeholder="Поиск" class="search__input" name="search">
+                        <button type="submit" value="" class="search__button"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="header__item">
+                <a href="#" class="header__button-entry button-blue icon-profile-circle"><span>Войти</span></a>
+            </div>
+        </div>
+        <div class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="football.html" class="nav__link icon-soccer-ball">Футбол</a></li>
+                <li class="nav__item"><a href="hockey.html" class="nav__link icon-ice-skate-stick">Хоккей</a></li>
+                <li class="nav__item"><a href="tennis.html" class="nav__link icon-tennis-ball">Теннис</a></li>
+                <li class="nav__item"><a href="basketball.html" class="nav__link icon-basket-ball">Баскетбол</a></li>
+                <li class="nav__item"><a href="voleyball.html" class="nav__link icon-voley-ball">Волейбол</a></li>
+                <li class="nav__item"><a href="#" class="nav__link icon-boxing">Единоборства</a></li>
+            </ul>
+            <a class="header__rating" href="rating-bookmaker.html">Рейтинг букмекеров</a>
+        </div>
+        <div class="header__nav-sublist nav-sublist">
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="match.html" class="nav-sublist__link">Матчи</a></li>
+                    <li class="nav-sublist__item"><a href="forecasts.html" class="nav-sublist__link">Прогнозы</a></li>
+                    <li class="nav-sublist__item"><a href="articles.html" class="nav-sublist__link">Статьи</a></li>
+                </ul>
+            </div>
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="translition.html" class="nav-sublist__link">РПЛ</a></li>
+                    <li class="nav-sublist__item"><a href="l-review.html" class="nav-sublist__link">ЧМ-2022</a></li>
+                    <li class="nav-sublist__item"><a href="review.html" class="nav-sublist__link">ЛЧ</a></li>
+                    <li class="nav-sublist__item"><a href="protocol.html" class="nav-sublist__link">ЛЕ</a></li>
+                    <li class="nav-sublist__item"><a href="tennis-2.html" class="nav-sublist__link">АПЛ</a></li>
+                </ul>
+                <div class="nav-sublist__button"></div>
+            </div>
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">ПСЖ</a></li>
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">Спартак</a></li>
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">Барселона</a></li>
+                </ul>
+                <div class="nav-sublist__button"></div>
+            </div>
+            <a class="nav-sublist__icon-link" href="#"><img src="img/icons/1xstavka.svg" alt="icon"></a>
+        </div>
+        <div class="header__drop-list drop-list-nav">
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Атлетико</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Арсенал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Бавария</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Барселона</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Боруссия Д</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Зенит</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Интер</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Лацио</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ливерпуль</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Локомотив</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Сити</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Юнайтед</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Милан</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ПСЖ</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Реал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Сборная России</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Спартак</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ЦСКА</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Челси</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ювентус</a></li>
+            </ul>
+        </div>
+        <div class="header__drop-list drop-list-nav">
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Вторая всплывашка</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Арсенал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Бавария</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Барселона</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Боруссия Д</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Зенит</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Интер</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Лацио</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ливерпуль</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Локомотив</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Сити</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Юнайтед</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Милан</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ПСЖ</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Реал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Сборная России</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Спартак</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ЦСКА</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Челси</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ювентус</a></li>
+            </ul>
+        </div>
+        <div class="header__block">
+
+        </div>
+    </div>
+</header>
+        <main class="page">
+            <div class="page__container _container">
+                <div class="page__content">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Рейтинг букмекеров</a></li>
+                        </ul>
+                    </div>
+                    <h1 class="page__title">Букмекерская контора «Фонбет»</h1>
+                    <!-- Карточка букмекерской конторы -->
+                    <div class="card-bookmaker">
+                        <a href="#" class="card-bookmaker__logo"><img src="img/logo-bookmaker/fonbet.svg" alt="fonbet"></a>
+                        <div class="card-bookmaker__inner">
+                            <div class="card-bookmaker__column">
+                                <div class="card-bookmaker__bonus icon-prize">15 000 ₽</div>
+                                <div class="card-bookmaker__bonus-text">Бонус при регистрации</div>
+                            </div>
+                            <a href="#" class="card-bookmaker__button">Забрать</a>
+                        </div>
+                        <div class="card-bookmaker__nav">
+                            <ul class="card-bookmaker__nav-list">
+                                <li class="card-bookmaker__nav-item"><a class="card-bookmaker__nav-link _slowscroll" href="#review">Обзор БК</a></li>
+                                <li class="card-bookmaker__nav-item"><a class="card-bookmaker__nav-link _slowscroll" href="#bonus">Бонусы и акции</a></li>
+                                <li class="card-bookmaker__nav-item"><a class="card-bookmaker__nav-link _slowscroll" href="#quest">Вопросы и ответы</a></li>
+                                <li class="card-bookmaker__nav-item"><a class="card-bookmaker__nav-link _slowscroll" href="#">Отзывы</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-bookmaker__link-body">
+                            <a class="card-bookmaker__link" href="">Перейти на сайт</a>
+                            <div class="card-bookmaker__icons icons-system">
+                                <a class="icons-system__android icon-android" href="#"></a>
+                                <a class="icons-system__ios icon-ios" href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-bookmaker">
+                        <div  class="review-bookmaker__content">
+                            <h2  class="review-bookmaker__title ">Обзор БК</h2>
+                            <div class="review-bookmaker__row">
+                                <div class="review-bookmaker__column inner-block">
+                                    <div class="inner-block__subtitle _fw600">
+                                        <img class="inner-block__icon-title" src="img/icons/like-review.svg" alt="icon">
+                                        <span>Плюсы</span>
+                                    </div>
+                                    <ul class="review-bookmaker__list">
+                                        <li class="review-bookmaker__item _icon-like">Бонус на первый депозит</li>
+                                        <li class="review-bookmaker__item _icon-like">Широкая линия</li>
+                                        <li class="review-bookmaker__item _icon-like">Возможность выкупа ставки</li>
+                                        <li class="review-bookmaker__item _icon-like">ТВ-трансляции</li>
+                                    </ul>
+                                </div>
+                                <div class="review-bookmaker__column inner-block">
+                                    <div class="inner-block__subtitle _fw600">
+                                        <img class="inner-block__icon-title" src="img/icons/dislike-review.svg" alt="icon">
+                                        <span>Минусы</span>
+                                    </div>
+                                    <ul class="review-bookmaker__list">
+                                        <li class="review-bookmaker__item _icon-dis">Сложная верификация</li>
+                                        <li class="review-bookmaker__item _icon-dis">Нестабильная роспись</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div  class="inner-block">
+                                <div id="review" class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/video-square-review.svg" alt="icon">
+                                    <span>Обзор БК Фонбет</span>
+                                </div>
+                                <div class="inner-block__row">
+                                    <p>
+                                        Букмекерская контора Фонбет была 
+                                        основана еще в 1994 является одной из 
+                                        самых первых в России. Компания раньше 
+                                        принимала ставки только в пунктах приемах, 
+                                        в наше время принимает ставки практически 
+                                        во всех городах России и через официальный 
+                                        сайт. Фонбет считается самым народным 
+                                        букмекером. Все операции проходят официально 
+                                        через ЦУПИС. БК Фонбет имеет хорошее, удобное, 
+                                        в то же время простое мобильное приложение.
+                                    </p>
+                                    <a href="#" class="review-bookmaker__video">
+                                        <img src="img/icons/video-review.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="inner-block">
+                                <div class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/profile-2user-review.svg" alt="icon">
+                                    <span>Регистрация и идентификация на Фонбете</span>
+                                </div>
+                                <p>
+                                    Как и в любой легальной букмекерской конторе после регистрации нужно пройти подтверждения 
+                                    личности. В данной БК есть 2 вида идентификации: полная идентификация и упрощенная.
+                                </p>
+                                <p>
+                                    Упрощенная идентификация возможна онлайн или через сайт Госуслуги. Если вы проходите 
+                                    упрощенную идентификацию, то у вас будет лимит на транзакции до 60000 рублей за один раз. Месячный оборот не может превышать 200000 рублей. 
+                                </p>
+                                <p>
+                                    Чтобы пройти полную идентификацию вам нужно посетить в своем городе ППС или посетить салон сотовой связи Связной с паспортом, но данная 
+                                    услуга будет платная – 300 рублей.
+                                </p>
+                            </div>
+                            <div class="inner-block">
+                                <div class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/gift-review.svg" alt="icon">
+                                    <span>Бонусы и фрибеты БК Fonbet</span>
+                                </div>
+                                <p>
+                                    БК Фонбет предлагает игрокам несколько бонусных фрибетов. Минимальная сумма депозита для 
+                                    участия в акции – 500 рублей. Чтобы отыграть бонус, игроку нужно сделать ставки на всю 
+                                    сумму депозита в 10 раз превышающую номинал фрибета, с коэффициентом не ниже 1.5. 
+                                    Максимальная сумма всех фрибетов не может превышать 15000 рублей. Номиналы всех бонусов 
+                                    составляют 500 рублей.
+                                </p>
+                                <div class="inner-block__subtitle">Как получить бонус?</div>
+                                <div class="inner-block__row _column">
+                                    <div class="inner-block__row-50">
+                                        <div class="review-bookmaker__point point-review">
+                                            <div class="point-review__number">01.</div>
+                                            <div class="point-review__text">Зарегистрируйтесь на сайте БК Фонбет.</div>
+                                        </div>
+                                        <div class="review-bookmaker__point point-review">
+                                            <div class="point-review__number">02.</div>
+                                            <div class="point-review__text">Пройдите идентификацию.</div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-block__row-50">
+                                        <div class="review-bookmaker__point point-review">
+                                            <div class="point-review__number">03.</div>
+                                            <div class="point-review__text">Внесите депозит от 500р.</div>
+                                        </div>
+                                        <div class="review-bookmaker__point point-review">
+                                            <div class="point-review__number">04.</div>
+                                            <div class="point-review__text">Бонус будет доступен после подтверждения личности и пополнения счета.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="inner-block">
+                                <div class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/medal-star-review.svg" alt="icon">
+                                    <span>Выбор ставок — хороший</span>
+                                </div>
+                                <p>
+                                    БК Фонбет предлагает игрокам несколько бонусных фрибетов. Минимальная сумма депозита для 
+                                    участия в акции – 500 рублей. Чтобы отыграть бонус, игроку нужно сделать ставки на всю 
+                                    сумму депозита в 10 раз превышающую номинал фрибета, с коэффициентом не ниже 1.5. 
+                                    Максимальная сумма всех фрибетов не может превышать 15000 рублей. Номиналы всех бонусов 
+                                    составляют 500 рублей.
+                                </p>
+                                <div class="inner-block__subtitle icon-soccer-ball">Футбол</div>
+                                <p>
+                                    На большие лиги топ 5 европейского футбола и на РПЛ маржа составит 4.5%. На тоталы форы – 3.5-4.5%. 
+                                    Для средних лиг маржа будет составлять примерно 5%.
+                                </p>
+                                <div class="inner-block__subtitle icon-ice-skate-stick">Хоккей</div>
+                                <p>
+                                    На хоккей маржа средняя и составляет 4-5% на европейские матчи НХЛ и КХЛ. На матчи невысокого уровня, Фонбет закладывает маржу в 7-8%.
+                                </p>
+                                <div class="inner-block__subtitle icon-basket-ball">Баскетбол</div>
+                                <p>
+                                    Баскетбольная маржа находится на среднем уровне. Цифры для НБА обычные – 4.5-5% и 3.5% на форы и тоталы.
+                                    На лиги невысокого уровня маржа поднимается до 7%. На равные исходы букмекер будет давать коэффициенты 1.9-1.9.
+                                </p>
+                            </div>
+                            <div class="inner-block">
+                                <div class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/discount-review.svg" alt="icon">
+                                    <span>Коэффициенты</span>
+                                </div>
+                                <p>
+                                    Букмекеру удается держать коэффициенты на хорошем уровне. Но в то же время они не являются выше чем у других БК.
+                                </p>
+                            </div>
+                            <div class="inner-block">
+                                <div class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/video-review.svg" alt="icon">
+                                    <span>LIVE и трансляции</span>
+                                </div>
+                                <p>
+                                    Букмекерская контора Фонбет считается лидером в ставках лайв событий. Игроку предлагается очень широкая и вариативная 
+                                    роспись. В день БК принимает ставки на более чем 1600 спортивных событий. В каждом матче Фонбет дает возможность делать 
+                                    ставки на статистику и нестандартные рынки. Например вы можете сделать ставку на «будет ли подан угловой на всех углах 
+                                    поля». Возможность настроить лайв линию под себя. Присутствуют ТВ-трансляции и хорошая инфорграфика. БК отличается быстрым 
+                                    расчетом ставок в лайве. Коэффициенты схожи с прематчевыми.
+                                </p>
+                            </div>
+                            <div class="inner-block">
+                                <div class="inner-block__title">
+                                    <img class="inner-block__icon-title" src="img/icons/moneys-reviews.svg" alt="icon">
+                                    <span>Пополнение и вывод средств</span>
+                                </div>
+                                <p>
+                                    Букмекерская контора Фонбет считается лидером в ставках лайв событий. Игроку предлагается очень широкая и вариативная 
+                                    роспись. В день БК принимает ставки на более чем 1600 спортивных событий. В каждом матче Фонбет дает возможность делать 
+                                    ставки на статистику и нестандартные рынки. Например вы можете сделать ставку на «будет ли подан угловой на всех углах 
+                                    поля». Возможность настроить лайв линию под себя. Присутствуют ТВ-трансляции и хорошая инфорграфика. БК отличается быстрым 
+                                    расчетом ставок в лайве. Коэффициенты схожи с прематчевыми.
+                                </p>
+                            </div>
+                            <div id="bonus" class="stocks">
+                                <div class="stocks__content">
+                                    <h2 class="stocks__title">Бонусы и акции</h2>
+                                    <div class="stocks__items">
+                                        <div  class="stocks__items-wrapper swiper-wrapper">
+                                            <div  class="stocks__item item-slide swiper-slide">
+                                                <div class="item-slide__content">
+                                                    <div class="item-slide__image">
+                                                        <img src="img/img-slider.jpg" alt="картинка">
+                                                        <a href="#" class="item-slide__label"><img src="img/icons-bookmaker/fonbet.svg" alt="fonbet"></a>
+                                                    </div>
+                                                    <div class="item-slide__title">Приветственные фрибеты</div>
+                                                    <a href="#" class="item-slide__text">Бонус до 15 000 рублей новым клиентам от БК «Фонбет»</a>
+                                                    <a class="item-slide__button icon-prize" href="#">Получить бонус</a>
+                                                </div>
+                                            </div>
+                                            <div  class="stocks__item item-slide swiper-slide">
+                                                <div class="item-slide__content">
+                                                    <div class="item-slide__image">
+                                                        <img src="img/img-slider.jpg" alt="картинка">
+                                                        <a href="#" class="item-slide__label"><img src="img/icons-bookmaker/fonbet.svg" alt="fonbet"></a>
+                                                    </div>
+                                                    <div class="item-slide__title">Приветственные фрибеты</div>
+                                                    <a href="#" class="item-slide__text">Фрибеты 1000 рублей на матчи КХЛ от БК «Фонбет»</a>
+                                                    <a class="item-slide__button icon-prize" href="#">Получить бонус</a>
+                                                </div>
+                                            </div>
+                                            <div  class="stocks__item item-slide swiper-slide">
+                                                <div class="item-slide__content">
+                                                    <div class="item-slide__image">
+                                                        <img src="img/img-slider.jpg" alt="картинка">
+                                                        <a href="#" class="item-slide__label"><img src="img/icons-bookmaker/fonbet.svg" alt="fonbet"></a>
+                                                    </div>
+                                                    <div class="item-slide__title">Приветственные фрибеты</div>
+                                                    <a href="#" class="item-slide__text">Кешбэк каждый месяц от 7,5 до 12,5% от БК «Фонбет»</a>
+                                                    <a class="item-slide__button icon-prize" href="#">Получить бонус</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="quest" class="questions"> 
+                                <div class="questions__content">
+                                    <h2 class="questions__title">Вопросы и ответы</h2>
+                                    <div data-spollers class="questions__body">
+                                        <div class="questions__spoller">
+                                            <button tabindex="1" type="button" data-spoller class="questions__text _icon-arrow-spoller">Какие есть способы верификации?</button>
+                                            <div class="questions__answer">
+                                                <span>
+                                                    Есть возможность пройти верификацию онлайн. Отправить фото 
+                                                    документов букмекеру Фонбет. Или заказать звонок по WhatsApp или Skype.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="questions__spoller">
+                                            <button tabindex="-1" type="button" data-spoller class="questions__text _icon-arrow-spoller">Какая минимальная сумма для депозита?</button>
+                                            <div class="questions__answer">
+                                                <span>
+                                                    Есть возможность пройти верификацию онлайн. Отправить фото 
+                                                    документов букмекеру Фонбет. Или заказать звонок по WhatsApp или Skype.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="questions__spoller">
+                                            <button tabindex="-1" type="button" data-spoller class="questions__text _icon-arrow-spoller">Минимальная сумма вывода и комиссия за вывод?</button>
+                                            <div class="questions__answer">
+                                                <span>
+                                                    Есть возможность пройти верификацию онлайн. Отправить фото 
+                                                    документов букмекеру Фонбет. Или заказать звонок по WhatsApp или Skype.
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="questions__spoller">
+                                            <button tabindex="-1" type="button" data-spoller class="questions__text _icon-arrow-spoller">Сроки вывода средств на карту?</button>
+                                            <div class="questions__answer">
+                                                <span>
+                                                    Есть возможность пройти верификацию онлайн. Отправить фото 
+                                                    документов букмекеру Фонбет. Или заказать звонок по WhatsApp или Skype.
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+                <div class="page__sidebar">
+                    <!-- Рекомендуем букмекеров -->
+                    <div class="recommendations-block">
+                        <div class="recommendations-block__content">
+                            <div class="recommendations-block__rows">
+                                <div class="recommendations-block__title">Рекомендуем букмекеров</div>
+                                <a class="recommendations-block__link" href="#">все</a>
+                            </div>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/pari.svg" alt="pari"></div>
+                                    <div class="recommendations-block__bonus icon-prize"><span>1 000 ₽</span></div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 1 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/winline.svg" alt="winline"></div>
+                                    <div class="recommendations-block__bonus icon-prize">10 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 10 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/fonbet.svg" alt="fonbet"></div>
+                                    <div class="recommendations-block__bonus icon-prize">2 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">ФРИБЕТ до 2 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/liga.svg" alt="liga"></div>
+                                    <div class="recommendations-block__bonus icon-prize">10 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 10 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/1x.svg" alt="1x"></div>
+                                    <div class="recommendations-block__bonus icon-prize">32 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 25 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/betboom.svg" alt="betboom"></div>
+                                    <div class="recommendations-block__bonus icon-prize">7 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 7 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/melget.svg" alt="melget"></div>
+                                    <div class="recommendations-block__bonus icon-prize">19 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 19 500 рублей без условий</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__content _container">
+        <div class="footer__top">
+            <div class="footer__column">
+                <a href="index.html" class="footer__logo logo">
+                    <div class="logo__name">SPORT-CHANCE</div>
+                    <div class="logo__text">Sport-chance - Лучшая спортивная статистика</div>
+                </a>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Популярное</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="project.html">О проекте</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="contacts.html">Контакты</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="news.html">Новости</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="articles.html">Статьи</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="video.html">Видео</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="forecasts.html">Прогнозы</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="copyright.html">Правооблдателям</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Прогнозы</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на спорт</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на футбол</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на теннис</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на хоккей</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на баскетбол</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на Лигу чемпионов</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на Лигу Европы</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на КХЛ</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на АПЛ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Букмекеры</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Рейтинг букмекеров</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Пари</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Винлайн</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Мелбет</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Леон</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">1Х ставка</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Лига ставок</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">БетБум</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__title _none">Социальные сети</div>
+                <div class="footer__social social">
+                    <div class="social__body">
+                        <a class="social__instagram icon-instagram" href="#"></a>
+                        <a class="social__vkontakte icon-vkontakte" href="#"></a>
+                        <a class="social__twitter icon-twitter" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <div class="footer__copyright-text"><span>18+</span>Все права защищены. Sport-chance.ru © 2022</div>
+            </div>
+            <div class="footer__text">Designed by <span>Modern Solutions</span></div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220929132938"></script>
+    <script src="js/script.js?_v=20220929132938"></script>
+</body>
+
+</html>

@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220929132938"> 
+    <link rel="stylesheet" href="css/style.min.css?_v=20220929132938">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тенис</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__content _container">
+        <div class="header__top">
+            <nav class="header__menu menu">
+                <button type="button" class="menu__icon icon-menu"><span></span></button>
+                <div class="menu__body">
+                    <div class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item _active"><a href="#" class="nav__link icon-soccer-ball">Футбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-ice-skate-stick">Хоккей</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-tennis-ball">Теннис</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-basket-ball">Баскетбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-voley-ball">Волейбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-boxing">Единоборства</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-sublist">
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Матчи</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Прогнозы</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Статьи</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">РПЛ</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">ЧМ-2022</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига Чемпионов</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига Европы</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига конференций</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">АПЛ</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Ла Лига</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Сериа А</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига 1</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Бундеслига</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">О проекте</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Статьи</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Прогнозы</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Видео</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__column">
+                <a href="index.html" class="header__logo logo">
+                    <div class="logo__name">SPORT-CHANCE</div>
+                    <div class="logo__text">Лучшая спортивная статистика</div>
+                </a>
+            </div>
+            <div class="header__item">
+                <a class="header__button" href="rating-bookmaker.html">Фрибет 2500₽</a>
+            </div>
+            <div class="header__item">
+                <div class="header__item-prize icon-prize"></div>
+                <div class="header__drop-item drop-item-header">
+                    <div class="drop-item-header__icon"><img src="img/icons/pari.svg" alt="icon"></div>
+                    <div class="drop-item-header__close close-icon"></div>
+                    <div class="drop-item-header__text">Бесплатная ставка 1000 рублей</div>
+                    <a href="#" class="drop-item-header__button">Забрать</a>
+                </div>
+            </div>
+            <div class="header__item">
+                <div class="header__search">
+                    <div class="header__close"></div>
+                    <form class="search" action="#">
+                        <input type="text" placeholder="Поиск" class="search__input" name="search">
+                        <button type="submit" value="" class="search__button"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="header__item">
+                <a href="#" class="header__button-entry button-blue icon-profile-circle"><span>Войти</span></a>
+            </div>
+        </div>
+        <div class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="football.html" class="nav__link icon-soccer-ball">Футбол</a></li>
+                <li class="nav__item"><a href="hockey.html" class="nav__link icon-ice-skate-stick">Хоккей</a></li>
+                <li class="nav__item"><a href="tennis.html" class="nav__link icon-tennis-ball">Теннис</a></li>
+                <li class="nav__item"><a href="basketball.html" class="nav__link icon-basket-ball">Баскетбол</a></li>
+                <li class="nav__item"><a href="voleyball.html" class="nav__link icon-voley-ball">Волейбол</a></li>
+                <li class="nav__item"><a href="#" class="nav__link icon-boxing">Единоборства</a></li>
+            </ul>
+            <a class="header__rating" href="rating-bookmaker.html">Рейтинг букмекеров</a>
+        </div>
+        <div class="header__nav-sublist nav-sublist">
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="match.html" class="nav-sublist__link">Матчи</a></li>
+                    <li class="nav-sublist__item"><a href="forecasts.html" class="nav-sublist__link">Прогнозы</a></li>
+                    <li class="nav-sublist__item"><a href="articles.html" class="nav-sublist__link">Статьи</a></li>
+                </ul>
+            </div>
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="translition.html" class="nav-sublist__link">РПЛ</a></li>
+                    <li class="nav-sublist__item"><a href="l-review.html" class="nav-sublist__link">ЧМ-2022</a></li>
+                    <li class="nav-sublist__item"><a href="review.html" class="nav-sublist__link">ЛЧ</a></li>
+                    <li class="nav-sublist__item"><a href="protocol.html" class="nav-sublist__link">ЛЕ</a></li>
+                    <li class="nav-sublist__item"><a href="tennis-2.html" class="nav-sublist__link">АПЛ</a></li>
+                </ul>
+                <div class="nav-sublist__button"></div>
+            </div>
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">ПСЖ</a></li>
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">Спартак</a></li>
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">Барселона</a></li>
+                </ul>
+                <div class="nav-sublist__button"></div>
+            </div>
+            <a class="nav-sublist__icon-link" href="#"><img src="img/icons/1xstavka.svg" alt="icon"></a>
+        </div>
+        <div class="header__drop-list drop-list-nav">
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Атлетико</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Арсенал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Бавария</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Барселона</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Боруссия Д</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Зенит</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Интер</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Лацио</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ливерпуль</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Локомотив</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Сити</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Юнайтед</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Милан</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ПСЖ</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Реал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Сборная России</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Спартак</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ЦСКА</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Челси</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ювентус</a></li>
+            </ul>
+        </div>
+        <div class="header__drop-list drop-list-nav">
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Вторая всплывашка</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Арсенал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Бавария</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Барселона</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Боруссия Д</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Зенит</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Интер</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Лацио</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ливерпуль</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Локомотив</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Сити</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Юнайтед</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Милан</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ПСЖ</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Реал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Сборная России</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Спартак</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ЦСКА</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Челси</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ювентус</a></li>
+            </ul>
+        </div>
+        <div class="header__block">
+
+        </div>
+    </div>
+</header>
+        <main class="page">
+            <div class="page__container _container">
+                <div class="page__content">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Тенис</a></li>
+                        </ul>
+                    </div>
+                    <h1 class="page__title">Волейбол: чемпионаты</h1>
+                    <div class="tenis">
+                        <div data-spollers class="spoller-play">
+                            <div class="spoller-play__title">
+                                <a href="#"><img class="spoller-play__flag" src="img/flags/Angl.svg" alt="flag"></a>
+                                <a href=""><span>ATP Гамбург</span></a>
+                                <a class="spoller-play__icon" href="#"></a>
+                            </div>
+                            <div tabindex  data-spoller class="spoller-play__button-spoller _active">
+                                <span>Показать</span> 
+                                <span>Скрыть</span>
+                            </div>
+                            <div class="spoller-play__body">
+                                <a href="#" class="spoller-tenis__item">
+                                    <div class="spoller-tenis__item-container">
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-play__star"></div>
+                                            <div class="spoller-tenis__time">20:00</div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/emil.svg" alt="иконка">
+                                                    <span>Эмиль Руусувуори</span>
+                                                </a>
+                                            </object>
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/diego.svg" alt="иконка">
+                                                    <span>Диего Себастиан Швартцман </span>
+                                                </a>
+                                            </object>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__score score-tenis">
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">0</div>
+                                                    <div class="score-tenis__count">2</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">20</div>
+                                                    <div class="score-tenis__count grey">25</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red">25</div>
+                                                    <div class="score-tenis__count">7</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <span class="spoller-tenis__taim red">1-ый тайм</span>
+                                            <object>
+                                                <a href="#" class="spoller-play__item-play-icon"></a>
+                                            </object>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__elem">
+                                                <div class="spoller-tenis__text">П1</div>
+                                                <div class="spoller-tenis__number">2.75</div>
+                                            </div>
+                                            <div class="spoller-tenis__elem">
+                                                <div class="spoller-tenis__text">П2</div>
+                                                <div class="spoller-tenis__number">1.50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="spoller-tenis__item">
+                                    <div class="spoller-tenis__item-container">
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-play__star"></div>
+                                            <div class="spoller-tenis__time">20:00</div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/emil.svg" alt="иконка">
+                                                    <span>Эмиль Руусувуори</span>
+                                                </a>
+                                            </object>
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/diego.svg" alt="иконка">
+                                                    <span>Диего Себастиан Швартцман </span>
+                                                </a>
+                                            </object>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__score score-tenis">
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">3</div>
+                                                    <div class="score-tenis__count">2</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red">4</div>
+                                                    <div class="score-tenis__count red">1</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red">3</div>
+                                                    <div class="score-tenis__count red">1</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <span class="spoller-tenis__taim red">2-ый тайм</span>
+                                            <object>
+                                                <a href="#" class="spoller-play__item-play-icon"></a>
+                                            </object>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__elem">
+                                                <div class="spoller-tenis__text">П1</div>
+                                                <div class="spoller-tenis__number">2.75</div>
+                                            </div>
+                                            <div class="spoller-tenis__elem">
+                                                <div class="spoller-tenis__text">П2</div>
+                                                <div class="spoller-tenis__number">1.50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="spoller-tenis__item _upcoming">
+                                    <div class="spoller-tenis__item-container">
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-play__star"></div>
+                                            <div class="spoller-tenis__time">20:00</div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/emil.svg" alt="иконка">
+                                                    <span>Эмиль Руусувуори</span>
+                                                </a>
+                                            </object>
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/diego.svg" alt="иконка">
+                                                    <span>Диего Себастиан Швартцман </span>
+                                                </a>
+                                            </object>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__score score-tenis">
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red"></div>
+                                                    <div class="score-tenis__count red"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count"></div>
+                                                    <div class="score-tenis__count"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="spoller-tenis__column grey">
+                                            <span>Предстоящая</span>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__elem">
+                                                <div class="spoller-tenis__text">П1</div>
+                                                <div class="spoller-tenis__number">2.75</div>
+                                            </div>
+                                            <div class="spoller-tenis__elem">
+                                                <div class="spoller-tenis__text">П2</div>
+                                                <div class="spoller-tenis__number">1.50</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="spoller-tenis__item _end">
+                                    <div class="spoller-tenis__item-container">
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-play__star"></div>
+                                            <div class="spoller-tenis__time">20:00</div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/emil.svg" alt="иконка">
+                                                    <span>Эмиль Руусувуори</span>
+                                                </a>
+                                            </object>
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/diego.svg" alt="иконка">
+                                                    <span>Диего Себастиан Швартцман </span>
+                                                </a>
+                                            </object>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__score score-tenis">
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">3</div>
+                                                    <div class="score-tenis__count">2</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red">4</div>
+                                                    <div class="score-tenis__count red">1</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count red">1</div>
+                                                    <div class="score-tenis__count">1</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">1</div>
+                                                    <div class="score-tenis__count">1</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">1</div>
+                                                    <div class="score-tenis__count">1</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">1</div>
+                                                    <div class="score-tenis__count">1</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="spoller-tenis__column grey">
+                                            <span>Завершен</span>
+                                            <object>
+                                                <a href="#" class="spoller-play__item-play-icon"></a>
+                                            </object>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="spoller-tenis__item _end">
+                                    <div class="spoller-tenis__item-container">
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-play__star"></div>
+                                            <div class="spoller-tenis__time">20:00</div>
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <object>
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/emil.svg" alt="иконка">
+                                                    <span>Эмиль Руусувуори</span>
+                                                </a>
+                                            </object>
+                                            <object>    
+                                                <a href="#" class="spoller-tenis__team">
+                                                    <img src="img/flags/diego.svg" alt="иконка">
+                                                    <span>Диего Себастиан Швартцман </span>
+                                                </a>
+                                            </object>
+                                            
+                                        </div>
+                                        <div class="spoller-tenis__column">
+                                            <div class="spoller-tenis__score score-tenis">
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">3</div>
+                                                    <div class="score-tenis__count">2</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">5</div>
+                                                    <div class="score-tenis__count">1</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count">3</div>
+                                                    <div class="score-tenis__count">2</div>
+                                                </div>
+                                                <div class="score-tenis__column">
+                                                    <div class="score-tenis__count grey">4</div>
+                                                    <div class="score-tenis__count">2</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="spoller-tenis__column grey">
+                                            <span>Завершен</span>
+                                            <object>
+                                                <a href="#" class="spoller-play__item-play-icon"></a>
+                                            </object>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="page__sidebar sidebar">
+                    <!-- Рекомендуем букмекеров -->
+                    <div class="recommendations-block">
+                        <div class="recommendations-block__content">
+                            <div class="recommendations-block__rows">
+                                <div class="recommendations-block__title">Рекомендуем букмекеров</div>
+                                <a class="recommendations-block__link" href="#">все</a>
+                            </div>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/pari.svg" alt="pari"></div>
+                                    <div class="recommendations-block__bonus icon-prize"><span>1 000 ₽</span></div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 1 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/winline.svg" alt="winline"></div>
+                                    <div class="recommendations-block__bonus icon-prize">10 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 10 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/fonbet.svg" alt="fonbet"></div>
+                                    <div class="recommendations-block__bonus icon-prize">2 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">ФРИБЕТ до 2 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/liga.svg" alt="liga"></div>
+                                    <div class="recommendations-block__bonus icon-prize">10 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 10 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/1x.svg" alt="1x"></div>
+                                    <div class="recommendations-block__bonus icon-prize">32 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 25 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/betboom.svg" alt="betboom"></div>
+                                    <div class="recommendations-block__bonus icon-prize">7 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 7 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/melget.svg" alt="melget"></div>
+                                    <div class="recommendations-block__bonus icon-prize">19 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 19 500 рублей без условий</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Мои лиги -->
+                    <div class="my-league">
+                        <div class="my-league__content sidebar__container">
+                            <div class="my-league__title sidebar__title">
+                                <img src="img/icons/flag-black.svg" alt="иконка">
+                                <span>Мои лиги</span>
+                            </div>
+                            <div class="my-league__item sidebar__item">
+                                <div class="my-league__item-row">
+                                    <a href="#" class="element-av">
+                                        <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                        <div class="element-av__column">
+                                            <div class="element-av__title">УЕФА - Лига чемпионов</div>
+                                            <div class="element-av__subtitle">Международный</div>
+                                        </div>
+                                    </a>
+                                    <div class="my-league__close _close-icon"></div>
+                                </div>
+                            </div>
+                            <div class="my-league__item sidebar__item">
+                                <div class="my-league__item-row">
+                                    <a href="#" class="element-av">
+                                        <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                        <div class="element-av__column">
+                                            <div class="element-av__title">Лига Европы</div>
+                                            <div class="element-av__subtitle">Европа</div>
+                                        </div>
+                                    </a>
+                                    <div class="my-league__close _close-icon"></div>
+                                </div>
+                            </div>
+                            <div class="my-league__item sidebar__item">
+                                <div class="my-league__item-row">
+                                    <a href="#" class="element-av">
+                                        <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                        <div class="element-av__column">
+                                            <div class="element-av__title">РПЛ</div>
+                                            <div class="element-av__subtitle">Россия</div>
+                                        </div>
+                                    </a>
+                                    <div class="my-league__close _close-icon"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Мои турниры -->
+                    <div class="my-tournament">
+                        <div class="my-tournament__content sidebar__container">
+                            <div class="my-league__title sidebar__title">
+                                <img src="img/icons/trophy.svg" alt="иконка">
+                                <span>Топ турниры</span>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">УЕФА - Лига чемпионов</div>
+                                        <div class="element-av__subtitle">Международный</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">Лига Европы</div>
+                                        <div class="element-av__subtitle">Европа</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">РПЛ</div>
+                                        <div class="element-av__subtitle">Россия</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">АПЛ</div>
+                                        <div class="element-av__subtitle">Англия</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">Бундеслига I</div>
+                                        <div class="element-av__subtitle">Германия</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">Ла Лига</div>
+                                        <div class="element-av__subtitle">Испания</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">Серия А</div>
+                                        <div class="element-av__subtitle">Италия</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">Кубок России по футболу</div>
+                                        <div class="element-av__subtitle">Россия</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">Лига конференций</div>
+                                        <div class="element-av__subtitle">Европа</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="my-tournament__item sidebar__item">
+                                <a href="#" class="element-av">
+                                    <img class="element-av__icon" src="img/icons/icon-element.svg" alt="icon">
+                                    <div class="element-av__column">
+                                        <div class="element-av__title">УЕФА - Лига наций</div>
+                                        <div class="element-av__subtitle">Международный</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Популярные матчи -->
+                    <div class="popular-matches">
+                        <div class="popular-matches__content sidebar__container">
+                            <div class="popular-matches__title sidebar__title">
+                                <img src="img/icons/flash.svg" alt="иконка">
+                                <span>Популярные матчи</span>
+                            </div>
+                            <a href="#" class="popular-matches__item sidebar__item">
+                                <div class="card-forecast__row">
+                                    <div class="card-forecast__column">
+                                        <div class="card-forecast__team">
+                                            <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                            <span>Арсенал</span>
+                                        </div>
+                                        <div class="card-forecast__team">
+                                            <img src="img/icons-emblem/manchester.svg" alt="icon">
+                                            <span>Манчестер Юнайтед</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__column">
+                                        <div class="card-forecast__date">12 июля</div>
+                                        <div class="card-forecast__time">21:30</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="popular-matches__item sidebar__item">
+                                <div class="card-forecast__row">
+                                    <div class="card-forecast__column">
+                                        <div class="card-forecast__team">
+                                            <img src="img/icons-emblem/chelase.svg" alt="icon">
+                                            <span>Челси</span>
+                                        </div>
+                                        <div class="card-forecast__team">
+                                            <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                            <span>Арсена</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__column">
+                                        <div class="card-forecast__date">12 июля</div>
+                                        <div class="card-forecast__time">21:30</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="popular-matches__item sidebar__item">
+                                <div class="card-forecast__row">
+                                    <div class="card-forecast__column">
+                                        <div class="card-forecast__team">
+                                            <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                            <span>Арсенал</span>
+                                        </div>
+                                        <div class="card-forecast__team">
+                                            <img src="img/icons-emblem/manchester.svg" alt="icon">
+                                            <span>Манчестер Юнайтед</span>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__column">
+                                        <div class="card-forecast__date">12 июля</div>
+                                        <div class="card-forecast__time">21:30</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="rating__content sidebar__container">
+                            <div class="rating__title sidebar__title">
+                                <img src="img/icons/ranting.svg" alt="иконка">
+                                <span>Рейтинг</span>
+                            </div>
+                            <div class="rating__item sidebar__item">
+                                <a href="#" class="rating__link">Рейтинг FIFA</a> 
+                            </div>
+                            <div class="rating__item sidebar__item">
+                                <a href="#" class="rating__link">Рейтинг UEFA</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__content _container">
+        <div class="footer__top">
+            <div class="footer__column">
+                <a href="index.html" class="footer__logo logo">
+                    <div class="logo__name">SPORT-CHANCE</div>
+                    <div class="logo__text">Sport-chance - Лучшая спортивная статистика</div>
+                </a>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Популярное</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="project.html">О проекте</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="contacts.html">Контакты</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="news.html">Новости</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="articles.html">Статьи</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="video.html">Видео</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="forecasts.html">Прогнозы</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="copyright.html">Правооблдателям</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Прогнозы</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на спорт</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на футбол</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на теннис</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на хоккей</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на баскетбол</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на Лигу чемпионов</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на Лигу Европы</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на КХЛ</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на АПЛ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Букмекеры</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Рейтинг букмекеров</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Пари</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Винлайн</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Мелбет</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Леон</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">1Х ставка</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Лига ставок</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">БетБум</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__title _none">Социальные сети</div>
+                <div class="footer__social social">
+                    <div class="social__body">
+                        <a class="social__instagram icon-instagram" href="#"></a>
+                        <a class="social__vkontakte icon-vkontakte" href="#"></a>
+                        <a class="social__twitter icon-twitter" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <div class="footer__copyright-text"><span>18+</span>Все права защищены. Sport-chance.ru © 2022</div>
+            </div>
+            <div class="footer__text">Designed by <span>Modern Solutions</span></div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220929132938"></script>
+    <script src="js/script.js?_v=20220929132938"></script>
+</body>
+
+</html>

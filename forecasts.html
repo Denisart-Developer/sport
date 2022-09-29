@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220929132938"> 
+    <link rel="stylesheet" href="css/style.min.css?_v=20220929132938">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статьи</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__content _container">
+        <div class="header__top">
+            <nav class="header__menu menu">
+                <button type="button" class="menu__icon icon-menu"><span></span></button>
+                <div class="menu__body">
+                    <div class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item _active"><a href="#" class="nav__link icon-soccer-ball">Футбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-ice-skate-stick">Хоккей</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-tennis-ball">Теннис</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-basket-ball">Баскетбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-voley-ball">Волейбол</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link icon-boxing">Единоборства</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-sublist">
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Матчи</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Прогнозы</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Статьи</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">РПЛ</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">ЧМ-2022</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига Чемпионов</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига Европы</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига конференций</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-sublist__column">
+                            <ul class="nav-sublist__list">
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">АПЛ</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Ла Лига</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Сериа А</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Лига 1</a></li>
+                                <li class="nav-sublist__item"><a href="#" class="nav-sublist__link">Бундеслига</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">О проекте</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Новости</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Статьи</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Прогнозы</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Видео</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__column">
+                <a href="index.html" class="header__logo logo">
+                    <div class="logo__name">SPORT-CHANCE</div>
+                    <div class="logo__text">Лучшая спортивная статистика</div>
+                </a>
+            </div>
+            <div class="header__item">
+                <a class="header__button" href="rating-bookmaker.html">Фрибет 2500₽</a>
+            </div>
+            <div class="header__item">
+                <div class="header__item-prize icon-prize"></div>
+                <div class="header__drop-item drop-item-header">
+                    <div class="drop-item-header__icon"><img src="img/icons/pari.svg" alt="icon"></div>
+                    <div class="drop-item-header__close close-icon"></div>
+                    <div class="drop-item-header__text">Бесплатная ставка 1000 рублей</div>
+                    <a href="#" class="drop-item-header__button">Забрать</a>
+                </div>
+            </div>
+            <div class="header__item">
+                <div class="header__search">
+                    <div class="header__close"></div>
+                    <form class="search" action="#">
+                        <input type="text" placeholder="Поиск" class="search__input" name="search">
+                        <button type="submit" value="" class="search__button"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="header__item">
+                <a href="#" class="header__button-entry button-blue icon-profile-circle"><span>Войти</span></a>
+            </div>
+        </div>
+        <div class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="football.html" class="nav__link icon-soccer-ball">Футбол</a></li>
+                <li class="nav__item"><a href="hockey.html" class="nav__link icon-ice-skate-stick">Хоккей</a></li>
+                <li class="nav__item"><a href="tennis.html" class="nav__link icon-tennis-ball">Теннис</a></li>
+                <li class="nav__item"><a href="basketball.html" class="nav__link icon-basket-ball">Баскетбол</a></li>
+                <li class="nav__item"><a href="voleyball.html" class="nav__link icon-voley-ball">Волейбол</a></li>
+                <li class="nav__item"><a href="#" class="nav__link icon-boxing">Единоборства</a></li>
+            </ul>
+            <a class="header__rating" href="rating-bookmaker.html">Рейтинг букмекеров</a>
+        </div>
+        <div class="header__nav-sublist nav-sublist">
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="match.html" class="nav-sublist__link">Матчи</a></li>
+                    <li class="nav-sublist__item"><a href="forecasts.html" class="nav-sublist__link">Прогнозы</a></li>
+                    <li class="nav-sublist__item"><a href="articles.html" class="nav-sublist__link">Статьи</a></li>
+                </ul>
+            </div>
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="translition.html" class="nav-sublist__link">РПЛ</a></li>
+                    <li class="nav-sublist__item"><a href="l-review.html" class="nav-sublist__link">ЧМ-2022</a></li>
+                    <li class="nav-sublist__item"><a href="review.html" class="nav-sublist__link">ЛЧ</a></li>
+                    <li class="nav-sublist__item"><a href="protocol.html" class="nav-sublist__link">ЛЕ</a></li>
+                    <li class="nav-sublist__item"><a href="tennis-2.html" class="nav-sublist__link">АПЛ</a></li>
+                </ul>
+                <div class="nav-sublist__button"></div>
+            </div>
+            <div class="nav-sublist__column">
+                <ul class="nav-sublist__list">
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">ПСЖ</a></li>
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">Спартак</a></li>
+                    <li class="nav-sublist__item"><a href="dinamo-review.html" class="nav-sublist__link">Барселона</a></li>
+                </ul>
+                <div class="nav-sublist__button"></div>
+            </div>
+            <a class="nav-sublist__icon-link" href="#"><img src="img/icons/1xstavka.svg" alt="icon"></a>
+        </div>
+        <div class="header__drop-list drop-list-nav">
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Атлетико</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Арсенал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Бавария</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Барселона</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Боруссия Д</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Зенит</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Интер</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Лацио</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ливерпуль</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Локомотив</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Сити</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Юнайтед</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Милан</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ПСЖ</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Реал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Сборная России</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Спартак</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ЦСКА</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Челси</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ювентус</a></li>
+            </ul>
+        </div>
+        <div class="header__drop-list drop-list-nav">
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Вторая всплывашка</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Арсенал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Бавария</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Барселона</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Боруссия Д</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Зенит</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Интер</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Лацио</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ливерпуль</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Локомотив</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Сити</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Манчестер Юнайтед</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Милан</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ПСЖ</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Реал</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Сборная России</a></li>
+            </ul>
+            <ul class="drop-list-nav__column">
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Спартак</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">ЦСКА</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Челси</a></li>
+                <li class="drop-list-nav__item"><a href="#" class="drop-list-nav__link">Ювентус</a></li>
+            </ul>
+        </div>
+        <div class="header__block">
+
+        </div>
+    </div>
+</header>
+        <main class="page">
+            <div class="page__container _container">
+                <div class="page__content">
+                    <div class="breadcrumbs">
+                        <ul class="breadcrumbs__list">
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+                            <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Статьи</a></li>
+                        </ul>
+                    </div>
+                    <div class="inner-block _no-padding">
+                        <div class="inner-block__date">12.02.2022</div>
+                        <div class="inner-block__title">Ростов - Зенит прогноз на матч Российская Премьер-лига</div>
+                        <p class="inner-block__text">
+                            1 августа в 20:00 по московскому времени Ростов будет пытаться отобрать очки дома у действующего 
+                            чемпиона России Зенита. В прошлой очной встрече удалось «южанам» зацепить одно очко в Санкт-Петербурге. 
+                            Однако в последних 2-х домашних играх подопечные Карпина потерпели 2 поражения.
+                        </p>
+                        <div class="inner-block__teams-body team-body">
+                            <div class="team-body__title">Полуфинал, Стадион: Ростов Арена</div>
+                            <div class="team-body__subtitle _grey">РПЛ</div>
+                            <div class="team-body__row">
+                                <div class="team-body__column">
+                                    <a href="#" class="team-body__logo">
+                                        <img src="img/emblem/manchester-city.svg" alt="">
+                                    </a>
+                                    <a href="#" class="team-body__team">Manchester City</a>
+                                    <div class="team-body__item">Kevin De Bruyne  35'</div>
+                                    <div class="team-body__item">Kevin De Bruyne  87'</div>
+                                </div>
+                                <div class="team-body__column">
+                                    <div class="team-body__status">ЗАВЕРШЁН</div>
+                                    <div class="team-body__score">2 : 1</div>
+                                    <div class="team-body__date">10 июля 18:00</div>
+                                </div>
+                                <div class="team-body__column">
+                                    <a href="#" class="team-body__logo">
+                                        <img src="img/emblem/liverpool.svg" alt="">
+                                    </a>
+                                    <a href="#" class="team-body__team">Liverpool</a>
+                                    <div class="team-body__item"><span>Mohamed Salah  15'</span></div>
+                                </div>
+                            </div>
+                            <div class="team-body__social social">
+                                <div class="social__body">
+                                    <a class="social__vkontakte icon-vkontakte" href="#"></a>
+                                    <a class="social__ok icon-ok" href="#"></a>
+                                    <a class="social__telegram icon-telegram" href="#"></a>
+                                    <a class="social__whatsapp icon-whatsapp" href="#"></a>
+                                    <a class="social__twitter icon-twitter" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rates">
+                            <div class="rates__content">
+                                <div class="rates__column"><a href=""><img src="img/icons/1xstavka-rates.svg" alt="1xstavka"></a></div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">П1</div> 
+                                        <div class="rates__value">2.58</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">Ничья</div> 
+                                        <div class="rates__value">3.46</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">П2</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ТБ 2.5</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ТМ 2.5</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ОЗ да</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ОЗ нет</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-block _no-padding">
+                        <div class="inner-block__date">12.02.2022</div>
+                        <div class="inner-block__title">Ростов - Зенит прогноз на матч Российская Премьер-лига</div>
+                        <p class="inner-block__text">
+                            1 августа в 20:00 по московскому времени Ростов будет пытаться отобрать очки дома у действующего 
+                            чемпиона России Зенита. В прошлой очной встрече удалось «южанам» зацепить одно очко в Санкт-Петербурге. 
+                            Однако в последних 2-х домашних играх подопечные Карпина потерпели 2 поражения.
+                        </p>
+                        <div class="inner-block__teams-body team-body">
+                            <div class="team-body__title">Полуфинал, Стадион: Ростов Арена</div>
+                            <div class="team-body__subtitle _grey">РПЛ</div>
+                            <div class="team-body__row">
+                                <div class="team-body__column">
+                                    <a href="#" class="team-body__logo">
+                                        <img src="img/emblem/manchester-city.svg" alt="">
+                                    </a>
+                                    <a href="#" class="team-body__team">Manchester City</a>
+                                    <div class="team-body__item">Kevin De Bruyne  35'</div>
+                                    <div class="team-body__item">Kevin De Bruyne  87'</div>
+                                </div>
+                                <div class="team-body__column">
+                                    <div class="team-body__status">До начала матча</div>
+                                    <div class="team-body__timer">
+                                        <div class="team-body__timer-column">
+                                            <span>08</span>
+                                            <span>День</span>
+                                        </div>
+                                        <div class="team-body__timer-column">
+                                            <span>11</span>
+                                            <span>Час</span>
+                                        </div>
+                                        <div class="team-body__timer-column">
+                                            <span>32</span>
+                                            <span>Мин</span>
+                                        </div>
+                                        <div class="team-body__timer-column">
+                                            <span>51</span>
+                                            <span>Сек</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="team-body__column">
+                                    <a href="#" class="team-body__logo">
+                                        <img src="img/emblem/liverpool.svg" alt="">
+                                    </a>
+                                    <a href="#" class="team-body__team">Liverpool</a>
+                                    <div class="team-body__item"><span>Mohamed Salah  15'</span></div>
+                                </div>
+                            </div>
+                            <div class="team-body__social social">
+                                <div class="social__body">
+                                    <a class="social__vkontakte icon-vkontakte" href="#"></a>
+                                    <a class="social__ok icon-ok" href="#"></a>
+                                    <a class="social__telegram icon-telegram" href="#"></a>
+                                    <a class="social__whatsapp icon-whatsapp" href="#"></a>
+                                    <a class="social__twitter icon-twitter" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rates">
+                            <div class="rates__content">
+                                <div class="rates__column"><a href=""><img src="img/icons/1xstavka-rates.svg" alt="1xstavka"></a></div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">П1</div> 
+                                        <div class="rates__value">2.58</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">Ничья</div> 
+                                        <div class="rates__value">3.46</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">П2</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ТБ 2.5</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ТМ 2.5</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ОЗ да</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">ОЗ нет</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-block _no-padding">
+                        <div class="inner-block__date">12.02.2022</div>
+                        <div class="inner-block__title">Ростов - Зенит прогноз на матч Российская Премьер-лига</div>
+                        <p class="inner-block__text">
+                            1 августа в 20:00 по московскому времени Ростов будет пытаться отобрать очки дома у действующего 
+                            чемпиона России Зенита. В прошлой очной встрече удалось «южанам» зацепить одно очко в Санкт-Петербурге. 
+                            Однако в последних 2-х домашних играх подопечные Карпина потерпели 2 поражения.
+                        </p>
+                        <div class="inner-block__teams-body team-body">
+                            <div class="team-body__title">Полуфинал, Стадион: Ростов Арена</div>
+                            <div class="team-body__subtitle _grey">РПЛ</div>
+                            <div class="team-body__row">
+                                <div class="team-body__column">
+                                    <a href="#" class="team-body__logo">
+                                        <img src="img/emblem/manchester-city.svg" alt="">
+                                    </a>
+                                    <a href="#" class="team-body__team">Manchester City</a>
+                                    <div class="team-body__item">Kevin De Bruyne  35'</div>
+                                    <div class="team-body__item">Kevin De Bruyne  87'</div>
+                                </div>
+                                <div class="team-body__column">
+                                    <div class="team-body__score">2 : 1</div>
+                                    <div class="team-body__date">10 июля 18:00</div>
+                                </div>
+                                <div class="team-body__column">
+                                    <a href="#" class="team-body__logo">
+                                        <img src="img/emblem/liverpool.svg" alt="">
+                                    </a>
+                                    <a href="#" class="team-body__team">Liverpool</a>
+                                    <div class="team-body__item"><span>Mohamed Salah  15'</span></div>
+                                </div>
+                            </div>
+                            <div class="team-body__buttons">
+                                <a href="#" class="team-body__button">Смотреть онлайн</a>
+                            </div>
+                            <div class="team-body__social social">
+                                <div class="social__body">
+                                    <a class="social__vkontakte icon-vkontakte" href="#"></a>
+                                    <a class="social__ok icon-ok" href="#"></a>
+                                    <a class="social__telegram icon-telegram" href="#"></a>
+                                    <a class="social__whatsapp icon-whatsapp" href="#"></a>
+                                    <a class="social__twitter icon-twitter" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body__rates rates">
+                            <div class="rates__content">
+                                <div class="rates__column"><a href=""><img src="img/icons/1xstavka-rates.svg" alt="1xstavka"></a></div>
+                                <div class="rates__column">
+                                    <a href="#" class="rates__row">
+                                        <div class="rates__item">П1</div> 
+                                        <div class="rates__value">2.58</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#"  class="rates__row">
+                                        <div class="rates__item">Ничья</div> 
+                                        <div class="rates__value">3.46</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#"  class="rates__row">
+                                        <div class="rates__item">П2</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#"  class="rates__row">
+                                        <div class="rates__item">ТБ 2.5</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#"  class="rates__row">
+                                        <div class="rates__item">ТМ 2.5</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#"  class="rates__row">
+                                        <div class="rates__item">ОЗ да</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                                <div class="rates__column">
+                                    <a href="#"  class="rates__row">
+                                        <div class="rates__item">ОЗ нет</div> 
+                                        <div class="rates__value">2.94</div> 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-body__tab">
+                            <nav class="tabs-team">
+                                <div class="tabs-team__items">
+                                    <a href="#" class="tabs-team__item">Обзор</a>
+                                </div>
+                                <div class="tabs-team__items">
+                                    <a href="#" class="tabs-team__item">Протокол</a>
+                                </div>
+                                <div class="tabs-team__items">
+                                    <a href="#" class="tabs-team__item">Трансляции</a>
+                                </div>
+                                <div class="tabs-team__items">
+                                    <a href="#" class="tabs-team__item active">Личные встречи</a>
+                                </div>
+                                <div class="tabs-team__items">
+                                    <a href="#" class="tabs-team__item">Ставки</a>
+                                </div>
+                            </nav>
+                            <div class="tabs-team__body">
+                                <div class="tabs-team__block">
+                                    <div class="block-tabs__row">
+                                        <a href="#" class="block-tabs__player">
+                                            <span>Ян Дьомбер</span>
+                                            <img src="img/icons/icon-ball-tabs.svg" alt="icon"> 
+                                        </a>
+                                        <div class="block-tabs__numder"><span>18'</span></div>
+                                    </div>
+                                    <div class="block-tabs__row _reverse">
+                                        <a href="#" class="block-tabs__player">
+                                            <span>Норберт Дьомбер</span>
+                                            <img src="img/icons/icon-card-yelow.svg" alt="icon"> 
+                                        </a>
+                                        <div class="block-tabs__numder"><span>23'</span></div>
+                                    </div>
+                                    <div class="block-tabs__row">
+                                        <a href="#" class="block-tabs__player">
+                                            <span>Elkhan Astanov</span>
+                                            <img src="img/icons/icon-ball-tabs.svg" alt="icon"> 
+                                        </a>
+                                        <div class="block-tabs__numder"><span>39'</span></div>
+                                    </div>
+                                    <div class="block-tabs__row">
+                                        <div class="block-tabs__title">Счет после первого тайма 2:0</div>
+                                    </div>
+                                    <div class="block-tabs__row _reverse">
+                                        <a href="#" class="block-tabs__player">
+                                            <span>Лукаш Гараслин</span>
+                                            <img src="img/icons/icon-card-yelow.svg" alt="icon"> 
+                                        </a>
+                                        <div class="block-tabs__numder"><span>47'</span></div>
+                                    </div>
+                                    <div class="block-tabs__row _reverse">
+                                        <a href="#" class="block-tabs__player">
+                                            <span>Норберт Дьомбер</span>
+                                            <img src="img/icons/icon-card-red.svg" alt="icon"> 
+                                        </a>
+                                        <div class="block-tabs__numder"><span>51'</span></div>
+                                    </div>
+                                    <div class="block-tabs__row _reverse">
+                                        <a href="#" class="block-tabs__player">
+                                            <span>Патрик Грошовски</span>
+                                            <img src="img/icons/icon-ball-tabs.svg" alt="icon"> 
+                                        </a>
+                                        <div class="block-tabs__numder"><span>86'</span></div>
+                                    </div>
+                                    <div class="block-tabs__row">
+                                        <div class="block-tabs__title">Матч закончился со счётом 2:1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">Ростов - Зенит. Прогноз Адамяна</div>
+                        <div class="inner-block__row _marg20">
+                            <div class="inner-block__image"><img src="img/video-image.jpg" alt="изображение"></div>
+                            <div class="card-bookmaker-mini">
+                                <div class="card-bookmaker-mini__content">
+                                    <div class="card-bookmaker-mini__column">
+                                        <div class="card-bookmaker-mini__row">
+                                            <div class="card-bookmaker-mini__logo"><img src="img/logo-bookmaker-nobg/pari.svg" alt="pari"></div>
+                                            <div class="card-bookmaker-mini__label">ТОП</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-bookmaker-mini__column">
+                                        <div class="card-bookmaker-mini__text">Фрибет</div>
+                                        <div class="card-bookmaker-mini__freebet">10 000₽</div>
+                                        <a href="#" class="card-bookmaker-mini__button">Получить</a>
+                                    </div>
+                                    <div class="card-bookmaker-mini__column">
+                                        <a href="#" class="card-bookmaker-mini__item _app">В приложении</a>
+                                        <a href="#" class="card-bookmaker-mini__item _cast">Трансляции</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">
+                            <img class="inner-block__icon-title" src="img/icons-club/fc_rostov.svg" alt="">
+                            <span>Ростов</span>
+                        </div>
+                        <p>
+                            Подопечные Валерия Карпина начали текущий сезон с домашней неудачи. Уступили Динамо 
+                            со счетом – 0:2, уже в первом тайме был оформлен московским клубом итоговый результат. 
+                            Теперь болельщики ждут реабилитации от своих любимцев, ведь 2 домашнее поражение подряд 
+                            на старте сезона – это будет явно перебор.
+                        </p>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">
+                            <img class="inner-block__icon-title" src="img/icons-club/fc_zenit.svg" alt="">
+                            <span>Зенит</span>
+                        </div>
+                        <p>
+                            Команда Семака очень удачно начала текущий игровой сезон. Сначала разгромили питерцы в 
+                            Суперкубке Локомотив, затем уверенно по счету были обыграны Химки. Но качество игры в 
+                            крайней встрече нельзя назвать удовлетворительным. Вплоть до 70-ой минуты мы наблюдали 
+                            ничейный результат, и только потом фавориту удалось подтвердить свое высокое мастерство...
+                        </p>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">Статистика личных встреч</div>
+                        <p>
+                            В последних 5-ти очных спаррингах Зенит добыл 3 победы. Команды в 3-х играх обменивались 
+                            забитыми голами, а также в 3-х случаях проходил тотал больше (2.5).
+                        </p>
+                        <p>
+                            Зенит не проигрывает в официальных матчах на протяжении 11 игр.
+                        </p>
+                        <p>
+                            Ростов проиграл в последних 3-х официальных матчах.
+                        </p>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">Прогноз и ставка на матч Ростов – Зенит. Исход с кф. 1.618</div>
+                        <p>
+                            Ростов будет отчаянно сопротивляться в этом матче, ведь ничего другого команде не остается делать. 
+                            Зенит явно сильнее по подбору игроков и качеству игры. Однако у питерцев тоже есть свои уязвимые звенья, 
+                            которыми просто напросто необходимо воспользоваться. Химки в какой-то период времени неплохо сдерживали 
+                            атакующий порыв действующего чемпиона. Надломились только под занавес встречи.
+                        </p>
+                        <p>
+                            «Желто-синие» могут сыграть еще лучше, если проявят в матче все свои наилучшие качества. Самое главное, 
+                            чтобы Зенит не организовал быстрый гол, который бы заставил полностью раскрыться ростовчан и вынудил 
+                            большими силами пойти вперед. Будем надеяться, что этого не произойдет, и хозяева поля сумеют удержать 
+                            фору (+1.5). Она прошла в последних 7 домашних матчах против Зенита – 6 раз.
+                        </p>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">Прогноз</div>
+                        <div class="bet-item">
+                            <a href="#" class="bet-item__logo">
+                                <img src="img/icons/1xставка-bet.svg" alt="1xставка">
+                            </a>
+                            <div class="bet-item__row">
+                                <div class="bet-item__column">
+                                    <div class="bet-item__title">Фора 1 (+1.5)</div>
+                                    <div class="bet-item__text">Ставка</div>
+                                </div>
+                                <div class="bet-item__column">
+                                    <div class="bet-item__title">1.618</div>
+                                    <div class="bet-item__text">Коэффициент</div>
+                                </div>
+                            </div>
+                            <a href="#" class="bet-item__button">Сделать ставку</a>
+                        </div>
+                    </div>
+                    <!-- Сыиграет этот прогноз? -->
+                    <div class="inner-block">
+                        <div class="inner-block__title">Сыграет этот прогноз?</div>
+                        <div class="progressbar-voting">
+                            <div class="progressbar-voting__row">
+                                <div class="progressbar-voting__title">Да</div>
+                                <div class="progressbar-voting__percent green">50%</div>
+                                <div class="progressbar-voting__column">
+                                    <div class="progressbar-voting__item">
+                                        <div style="width: 50%;" class="progressbar-voting__itemline green"></div>
+                                    </div>
+                                    <div class="progressbar-voting__count _check">5 голосов</div>
+                                </div>
+                            </div>
+                            <div class="progressbar-voting__row">
+                                <div class="progressbar-voting__title">Нет</div>
+                                <div class="progressbar-voting__percent red">50%</div>
+                                <div class="progressbar-voting__column">
+                                    <div class="progressbar-voting__item">
+                                        <div style="width: 50%;" class="progressbar-voting__itemline red"></div>
+                                    </div>
+                                    <div class="progressbar-voting__count">5 голосов</div>
+                                </div>
+                            </div>
+                            <div class="progressbar-voting__text">Всего проголосовало: 10</div>
+                        </div>
+                    </div>
+                    <div class="inner-block">
+                        <div class="inner-block__title">Сыграет этот прогноз?</div>
+                        <p>
+                            Проголосуйте, чтобы увидеть результат.
+                        </p>
+                        <div class="progressbar-voting__buttons">
+                            <a href="#" class="progressbar-voting__button-yes">ДА</a>
+                            <a href="#" class="progressbar-voting__button-no">НЕТ</a>
+                        </div>
+                        <div class="progressbar-voting__text">Всего проголосовало: 10</div>
+                    </div>
+                    <div class="inner-block _padding-left-no">
+                        <div class="inner-block__row _row-between">
+                            <div class="inner-block__title">Другие прогнозы</div>
+                            <a class="inner-block__link-padding _grey" href="#">все</a>
+                        </div>
+                        <div class="card-forecast-body">
+                            <div class="card-forecast-body__row">
+                                <a href="#" class="card-forecast">
+                                    <div class="card-forecast__title">Лига чемпионов, квалификация</div>
+                                    <div class="card-forecast__row">
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                                <span>Арсенал</span>
+                                            </div>
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/manchester.svg" alt="icon">
+                                                <span>Манчестер Юнайтед</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__date">12 июля</div>
+                                            <div class="card-forecast__time">21:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__button">Читать прогноз</div>
+                                </a>
+                                <a href="#" class="card-forecast">
+                                    <div class="card-forecast__title">Лига чемпионов, квалификация</div>
+                                    <div class="card-forecast__row">
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/chelase.svg" alt="icon">
+                                                <span>Челси</span>
+                                            </div>
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                                <span>Арсена</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__date">12 июля</div>
+                                            <div class="card-forecast__time">21:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__button">Читать прогноз</div>
+                                </a>
+                                <a href="#" class="card-forecast">
+                                    <div class="card-forecast__title">Лига чемпионов, квалификация</div>
+                                    <div class="card-forecast__row">
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/crystal-palace.svg" alt="icon">
+                                                <span>Кристал Пелес</span>
+                                            </div>
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/everton.svg" alt="icon">
+                                                <span>Эвертон</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__date">12 июля</div>
+                                            <div class="card-forecast__time">21:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__button">Читать прогноз</div>
+                                </a>
+                            </div>
+                            <div class="card-forecast-body__row">
+                                <a href="#" class="card-forecast">
+                                    <div class="card-forecast__title">Лига чемпионов, квалификация</div>
+                                    <div class="card-forecast__row">
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                                <span>Арсенал</span>
+                                            </div>
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/manchester.svg" alt="icon">
+                                                <span>Манчестер Юнайтед</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__date">12 июля</div>
+                                            <div class="card-forecast__time">21:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__button">Читать прогноз</div>
+                                </a>
+                                <a href="#" class="card-forecast">
+                                    <div class="card-forecast__title">Лига чемпионов, квалификация</div>
+                                    <div class="card-forecast__row">
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/chelase.svg" alt="icon">
+                                                <span>Челси</span>
+                                            </div>
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/arsenal-logo.svg" alt="icon">
+                                                <span>Арсена</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__date">12 июля</div>
+                                            <div class="card-forecast__time">21:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__button">Читать прогноз</div>
+                                </a>
+                                <a href="#" class="card-forecast">
+                                    <div class="card-forecast__title">Лига чемпионов, квалификация</div>
+                                    <div class="card-forecast__row">
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/crystal-palace.svg" alt="icon">
+                                                <span>Кристал Пелес</span>
+                                            </div>
+                                            <div class="card-forecast__team">
+                                                <img src="img/icons-emblem/everton.svg" alt="icon">
+                                                <span>Эвертон</span>
+                                            </div>
+                                        </div>
+                                        <div class="card-forecast__column">
+                                            <div class="card-forecast__date">12 июля</div>
+                                            <div class="card-forecast__time">21:30</div>
+                                        </div>
+                                    </div>
+                                    <div class="card-forecast__button">Читать прогноз</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page__sidebar">
+                    <!-- Рекомендуем букмекеров -->
+                    <div class="recommendations-block">
+                        <div class="recommendations-block__content">
+                            <div class="recommendations-block__rows">
+                                <div class="recommendations-block__title">Рекомендуем букмекеров</div>
+                                <a class="recommendations-block__link" href="#">все</a>
+                            </div>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/pari.svg" alt="pari"></div>
+                                    <div class="recommendations-block__bonus icon-prize"><span>1 000 ₽</span></div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 1 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/winline.svg" alt="winline"></div>
+                                    <div class="recommendations-block__bonus icon-prize">10 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 10 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/fonbet.svg" alt="fonbet"></div>
+                                    <div class="recommendations-block__bonus icon-prize">2 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">ФРИБЕТ до 2 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/liga.svg" alt="liga"></div>
+                                    <div class="recommendations-block__bonus icon-prize">10 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 10 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/1x.svg" alt="1x"></div>
+                                    <div class="recommendations-block__bonus icon-prize">32 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 25 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/betboom.svg" alt="betboom"></div>
+                                    <div class="recommendations-block__bonus icon-prize">7 000 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Бонус до 7 000 рублей без условий</div>
+                            </a>
+                            <a href="#" class="recommendations-block__card">
+                                <div class="recommendations-block__row">
+                                    <div class="recommendations-block__logo"><img src="img/icons-bookmaker/melget.svg" alt="melget"></div>
+                                    <div class="recommendations-block__bonus icon-prize">19 500 ₽</div>
+                                    <div class="recommendations-block__button">Играть</div>
+                                </div>
+                                <div class="recommendations-block__text">Фрибет до 19 500 рублей без условий</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+    <div class="footer__content _container">
+        <div class="footer__top">
+            <div class="footer__column">
+                <a href="index.html" class="footer__logo logo">
+                    <div class="logo__name">SPORT-CHANCE</div>
+                    <div class="logo__text">Sport-chance - Лучшая спортивная статистика</div>
+                </a>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Популярное</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="project.html">О проекте</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="contacts.html">Контакты</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="news.html">Новости</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="articles.html">Статьи</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="video.html">Видео</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="forecasts.html">Прогнозы</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="copyright.html">Правооблдателям</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Прогнозы</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на спорт</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на футбол</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на теннис</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на хоккей</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на баскетбол</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на Лигу чемпионов</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на Лигу Европы</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на КХЛ</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Прогнозы на АПЛ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers class="footer__column _spoller">
+                <div tabindex="-1" data-spoller class="footer__title _icon-arrow">Букмекеры</div>
+                <div class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Рейтинг букмекеров</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Пари</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Винлайн</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Мелбет</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Леон</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">1Х ставка</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">Лига ставок</a></li>
+                        <li class="footer__nav-item"><a class="footer__nav-link" href="">БетБум</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__column">
+                <div class="footer__title _none">Социальные сети</div>
+                <div class="footer__social social">
+                    <div class="social__body">
+                        <a class="social__instagram icon-instagram" href="#"></a>
+                        <a class="social__vkontakte icon-vkontakte" href="#"></a>
+                        <a class="social__twitter icon-twitter" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">
+                <div class="footer__copyright-text"><span>18+</span>Все права защищены. Sport-chance.ru © 2022</div>
+            </div>
+            <div class="footer__text">Designed by <span>Modern Solutions</span></div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220929132938"></script>
+    <script src="js/script.js?_v=20220929132938"></script>
+</body>
+
+</html>
